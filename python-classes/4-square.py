@@ -27,5 +27,6 @@ class Square:
             print("")
         else:
             for j in range(self.__size):
+                print()
                 for i in range(self.__size):
                     print("#".format(), end="")
